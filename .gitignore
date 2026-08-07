@@ -1,0 +1,23 @@
+# Secrets - never commit these
+.env
+*.env
+**/service-account*.json
+**/credentials*.json
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Cloud Shell / OS
+.DS_Store
+*.log
+/tmp/
+
+# Local test artifacts
+*.ipynb_checkpoints/
